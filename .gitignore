@@ -1,0 +1,15 @@
+# Android / Kotlin
+.gradle
+/local.properties
+/.idea
+/.idea/*
+*.iml
+/build
+/captures
+.externalNativeBuild
+.cxx
+/.DS_Store
+**/build/
+.gradle/
+*.keystore
+local.properties
