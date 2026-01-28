@@ -57,4 +57,28 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+    // Retrofit - Networking
+    implementation("com.squareup.retrofit2:retrofit:2.11.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.11.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.12")
+
+// Coroutines
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
+
+// Coil - Image loading
+    implementation("io.coil-kt:coil-compose:2.6.0")
+    implementation("androidx.compose.material:material-icons-extended:1.6.0")
+
+// Maps (OpenStreetMap)
+    implementation("org.osmdroid:osmdroid-android:6.1.20")
+
+// ViewModel + Lifecycle
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.0")
+
+// Jetpack Navigation
+    implementation("androidx.navigation:navigation-compose:2.8.0")
+
+// Permissions
+    implementation("com.google.accompanist:accompanist-permissions:0.34.0")
 }

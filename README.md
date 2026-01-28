@@ -1,6 +1,6 @@
-# CSE489 Landmark App
+# CSE489 Parking App
 
-This app manages landmarks using a REST API.
+This app manages parking locations (landmarks) using a REST API and shows nearby parking on a map.
 
 ## Tech Stack
 - Kotlin
